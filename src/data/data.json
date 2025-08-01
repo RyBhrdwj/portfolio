@@ -1,0 +1,122 @@
+{
+  "personal": {
+    "name": "Ricky Bhardwaj",
+    "title": "Full Stack Developer",
+    "subtitle": "Creating digital experiences that matter",
+    "bio": "I'm a passionate full-stack developer with a strong focus on building modern, responsive web applications. I enjoy turning complex problems into simple, elegant solutions that deliver exceptional user experiences.",
+    "email": "25ricky08@gmail.com",
+    "phone": "+91 9958186559",
+    "location": "New Delhi, India",
+    "resume": "https://youtube.com",
+    "social": {
+      "github": "https://github.com/rybhrdwj",
+      "linkedin": "https://linkedin.com/in/rybhrdwj"
+    }
+  },
+  "skills": [
+    "React",
+    "Node.js",
+    "TypeScript",
+    "Python",
+    "PostgreSQL",
+    "MongoDB",
+    "Github Actions",
+    "CI/CD",
+    "AWS",
+    "Docker",
+    "GraphQL",
+    "Next.js",
+    "Tailwind CSS",
+    "Framer Motion"
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "title": "Achievement Management System",
+      "description": "A centralized platform for managing student achievements. Students can submit their accomplishments, mentors can review and approve/reject them, and HoDs can monitor department-wide submissions. Role-based access with audit trails and analytics.",
+      "image": "/assets/certificate-icon.png",
+      "technologies": [
+        "React",
+        "Node.js",
+        "MongoDB",
+        "Express",
+        "Tailwind CSS"
+      ],
+      "category": "web",
+      "demoUrl": "https://achievement-management.vercel.app",
+      "githubUrl": "https://github.com/rybhrdwj/achievement-management",
+      "featured": false
+    },
+    {
+      "id": 2,
+      "title": "Tabular",
+      "description": "A spreadsheet-style application supporting editable cells and live formula evaluation. Designed for fast single-user performance with a lightweight table engine and dependency-aware cell updates.",
+      "image": "/assets/grid-icon.png",
+      "technologies": ["React", "Valtio", "Supabase"],
+      "category": "web",
+      "demoUrl": "https://tabular.pages.dev",
+      "githubUrl": "https://github.com/rybhrdwj/tabular",
+      "featured": false
+    },
+    {
+      "id": 3,
+      "title": "FlashDash",
+      "description": "An admin-user flashcard dashboard with JWT authentication. Users can browse and study flashcards by topic, while admins can create, update, and delete decks. Built with a clean UI and secure backend APIs.",
+      "image": "/assets/flashcard-icon.png",
+      "technologies": ["React", "MySQL", "Express", "Node.js", "JWT"],
+      "category": "web",
+      "demoUrl": "https://flashcards-6qt.pages.dev/",
+      "githubUrl": "https://github.com/rybhrdwj/flashcards",
+      "featured": false
+    },
+    {
+      "id": 4,
+      "title": "ChatHive",
+      "description": "A real-time MERN stack chat application using Socket.IO. Supports room-based chatting, online indicators, and dynamic user status. Built with JWT authentication and responsive chat UI.",
+      "image": "/assets/chat-icon.png",
+      "technologies": ["Socket.io", "MongoDB", "React", "Express", "Node.js"],
+      "category": "web",
+      "demoUrl": "",
+      "githubUrl": "https://github.com/rybhrdwj/chathive",
+      "featured": false
+    },
+    {
+      "id": 5,
+      "title": "HashMeme",
+      "description": "A meme-sharing social media platform with infinite scrolling, user reactions, and trending sections. Designed with a mobile-first UI for seamless content consumption.",
+      "image": "/assets/social-icon.png",
+      "technologies": ["React", "TanStack Query", "OAuth", "TailwindCSS"],
+      "category": "web",
+      "demoUrl": "",
+      "githubUrl": "https://github.com/rybhrdwj/hashmeme",
+      "featured": false
+    },
+    {
+      "id": 6,
+      "title": "Codenheimer",
+      "description": "A results dashboard built for a college coding contest organized by the tech society. Features smooth animations and a leaderboard-like UI where participants could check what they won. Attracted over 500+ visitors during the event.",
+      "image": "/assets/codenheimer-icon.png",
+      "technologies": ["HTML", "CSS", "Javascript", "Express"],
+      "category": "web",
+      "demoUrl": "",
+      "githubUrl": "https://github.com/rybhrdwj/codenheimer",
+      "featured": false
+    }
+  ],
+  "experience": [
+    {
+      "id": 1,
+      "company": "Krafted AI",
+      "position": "Full Stack Developer",
+      "duration": "Nov 2024 - Feb 2025",
+      "description": "Contributed to the development of scalable web applications using React and Node.js. Worked closely with the team to implement new features, optimize performance, and improve user experience across platforms."
+    },
+    {
+      "id": 2,
+      "company": "BPIT",
+      "position": "Backend Developer",
+      "duration": "June 2024 - July 2024",
+      "description": "Built core platform features from scratch using React and Node.js. Implemented CI/CD pipelines and reduced deployment time by 70%."
+    }
+  ]
+}
