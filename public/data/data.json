@@ -21,8 +21,7 @@
     "PostgreSQL",
     "MongoDB",
     "Github Actions",
-    "CI/CD",
-    "AWS",
+    "AWS S3",
     "Docker",
     "GraphQL",
     "Next.js",
@@ -33,7 +32,7 @@
     {
       "id": 1,
       "title": "Achievement Management System",
-      "description": "A centralized platform for managing student achievements. Students can submit their accomplishments, mentors can review and approve/reject them, and HoDs can monitor department-wide submissions. Role-based access with audit trails and analytics.",
+      "description": "A platform to manage student achievements in college, allowing mentors to review and approve or reject submissions.",
       "image": "/assets/certificate-icon.png",
       "technologies": [
         "React",
@@ -50,7 +49,7 @@
     {
       "id": 2,
       "title": "Tabular",
-      "description": "A spreadsheet-style application supporting editable cells and live formula evaluation. Designed for fast single-user performance with a lightweight table engine and dependency-aware cell updates.",
+      "description": "A spreadsheet webapp with formula evaluation. Designed for performance with a lightweight table engine.",
       "image": "/assets/grid-icon.png",
       "technologies": ["React", "Valtio", "Supabase"],
       "category": "web",
@@ -61,7 +60,7 @@
     {
       "id": 3,
       "title": "FlashDash",
-      "description": "An admin-user flashcard dashboard with JWT authentication. Users can browse and study flashcards by topic, while admins can create, update, and delete decks. Built with a clean UI and secure backend APIs.",
+      "description": "A flashcard webapp with JWT auth. Users can browse flashcards, while admins can create, update, delete them.",
       "image": "/assets/flashcard-icon.png",
       "technologies": ["React", "MySQL", "Express", "Node.js", "JWT"],
       "category": "web",
@@ -72,7 +71,7 @@
     {
       "id": 4,
       "title": "ChatHive",
-      "description": "A real-time MERN stack chat application using Socket.IO. Supports room-based chatting, online indicators, and dynamic user status. Built with JWT authentication and responsive chat UI.",
+      "description": "A real-time MERN stack chat application using Socket.IO. Built with JWT authentication and responsive chat UI.",
       "image": "/assets/chat-icon.png",
       "technologies": ["Socket.io", "MongoDB", "React", "Express", "Node.js"],
       "category": "web",
@@ -83,7 +82,7 @@
     {
       "id": 5,
       "title": "HashMeme",
-      "description": "A meme-sharing social media platform with infinite scrolling, user reactions, and trending sections. Designed with a mobile-first UI for seamless content consumption.",
+      "description": "A meme-sharing social media platform with infinite scrolling, user reactions. Designed with a mobile-first UI.",
       "image": "/assets/social-icon.png",
       "technologies": ["React", "TanStack Query", "OAuth", "TailwindCSS"],
       "category": "web",
@@ -94,7 +93,7 @@
     {
       "id": 6,
       "title": "Codenheimer",
-      "description": "A results dashboard built for a college coding contest organized by the tech society. Features smooth animations and a leaderboard-like UI where participants could check what they won. Attracted over 500+ visitors during the event.",
+      "description": "A results landing page built for a coding contest. Users could check their results and prizes won. Attracted over 500+ visitors.",
       "image": "/assets/codenheimer-icon.png",
       "technologies": ["HTML", "CSS", "Javascript", "Express"],
       "category": "web",
@@ -109,14 +108,14 @@
       "company": "Krafted AI",
       "position": "Full Stack Developer",
       "duration": "Nov 2024 - Feb 2025",
-      "description": "Contributed to the development of scalable web applications using React and Node.js. Worked closely with the team to implement new features, optimize performance, and improve user experience across platforms."
+      "description": "Contributed to the development of scalable web applications using React, Node.js and Postgres. Worked closely with the team to implement new features, optimize performance across the stack, and improved the user experience."
     },
     {
       "id": 2,
       "company": "BPIT",
       "position": "Backend Developer",
       "duration": "June 2024 - July 2024",
-      "description": "Built core platform features from scratch using React and Node.js. Implemented CI/CD pipelines and reduced deployment time by 70%."
+      "description": "Led the backend development for a student achievement management system. Implemented RESTful APIs, integrated MongoDB and AWS S3 for data storage, and ensured secure role-based access control. Collaborated with frontend developers to deliver a seamless user experience."
     }
   ]
 }
